@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- X-UA-Compatible does not work in Explorer if http-equiv is not directly below it. -->
+  <!-- Do not change the meta tag above. -->
+
+  <!-- 
+    Safari HTML Reference
+    
+    By default, Safari on iOS detects any string formatted like a phone number and makes it a link that calls the number. Specifying telephone=no disables this feature.
+
+    https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+  -->
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Verification -->
+  <meta name="google-site-verification" content="" />
+
+  <!-- 
+    The Web Robots Pages
+
+    Web Robots (also known as Web Wanderers, Crawlers, or Spiders), are programs that traverse the Web automatically. Search engines such as Google use them to index the web content, spammers use them to scan for email addresses, and they have many other uses.
+
+    https://www.robotstxt.org/
+  -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- 
+    Cache-Control
+
+    The Cache-Control HTTP header holds directives (instructions) for caching in both requests and responses. A given directive in a request does not mean the same directive should be in the response.
+
+    https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  -->
+
+  <!-- Search Engine Optimization -->
+  <title>HTML5</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <!-- 
+    Favicon
+    
+    A favicon, also known as a shortcut icon, website icon, tab icon, URL icon, or bookmark icon, is a file containing one or more small icons, associated with a particular website or web page.
+
+    Generate favicon.ico
+    https://www.favicon-generator.org/
+  
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  -->
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="" />
+
+  <!-- Facebook Open Graph -->
+  <meta property="fb:app_id" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXX-Y');
+  </script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+  <!--[if lte IE 9]>
+  <div class="browser-message">
+    <noscript>
+      <p class="browser-warning noscript-warning" role="alert" style="padding:10px;">
+        <strong>This web page requires JavaScript to be enabled.</strong><br/>
+        JavaScript is an object-oriented computer programming language
+        commonly used to create interactive effects within web browsers.
+      </p>
+    </noscript>
+    <p class="browser-warning upgrade-warning" role="alert" style="padding:10px;">
+      You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.
+    </p>
+  </div>
+  <![endif]-->
+
+  <div id="page" class="site">
+
+    <a id="skip-masthead" class="screen-reader-text" href="#main">Skip to content</a>
+
+    <header id="masthead" class="site-header navbar fixed" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="container">
+
+        <div id="page-brand" class="site-brand">
+          <h1 class="site-title" itemprop="name">
+            <a class="site-logo" href="index.html" itemprop="url">HTML5</a>
+          </h1>
+        </div>
+
+        <nav id="page-navigation" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <h2 class="screen-reader-text">Site Navigation</h2>
+          <div id="navbg" class="nav-bg"></div>
+          <div id="navbtn" class="nav-btn burger">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+          </div>
+          <div id="page-menu-wrapper" class="site-menu-wrapper">
+            <ul class="menu site-menu dropdown-menu mobile-dropdown-menu">
+              <li class="menu-item">
+                <a itemprop="url" href="full-fluid.html"><span itemprop="name">Layout</span></a>
+                <ul class="menu site-submenu">
+                  <li class="menu-item"><a itemprop="url" href="full-page.html"><span
+                        itemprop="name">full-page</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="full-fluid.html"><span
+                        itemprop="name">full-fluid</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="full-width.html"><span
+                        itemprop="name">full-width</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="content-sidebar.html"><span
+                        itemprop="name">content-sidebar</span></a>
+                  </li>
+                  <li class="menu-item"><a itemprop="url" href="sidebar-content.html"><span
+                        itemprop="name">sidebar-content</span></a>
+                  </li>
+                  <li class="menu-item"><a itemprop="url" href="sidebar-content-sidebar.html"><span
+                        itemprop="name">sidebar-content-sidebar</span></a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a itemprop="url" href="404.html"><span itemprop="name">Template</span></a>
+                <ul class="menu site-submenu">
+                  <li class="menu-item"><a itemprop="url" href="404.html"><span itemprop="name">404</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="archive.html"><span itemprop="name">archive</span></a>
+                  </li>
+                  <li class="menu-item"><a itemprop="url" href="blank.html"><span itemprop="name">blank</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="contact.html"><span itemprop="name">contact</span></a>
+                  </li>
+                  <li class="menu-item"><a itemprop="url" href="page.html"><span itemprop="name">page</span></a></li>
+                  <li class="menu-item"><a itemprop="url" href="post.html"><span itemprop="name">post</span></a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a itemprop="url" href="index.html"><span itemprop="name">index</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div><!-- .container -->
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+
+      <section id="hero" class="site-hero">
+
+        <header class="hero-header screen-reader-text">
+          <div class="container">
+            <h2 class="hero-title">Hero Section</h2>
+          </div>
+        </header>
+
+        <div class="hero-content">
+          <div class="slider">
+
+            <div class="slides slider-slick">
+              <div class="slide">
+                <div class="slide-inner">
+
+                  Hero Content
+
+                </div>
+              </div><!-- .slide -->
+            </div><!-- .slides -->
+
+          </div><!-- .slider -->
+        </div><!-- .hero-content -->
+
+      </section><!-- #hero -->
+
+      <main id="main-content" class="main-area">
+        <div class="container-fluid">
+          <div class="columns">
+
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main">
+                <div class="main-inner">
+
+                  <header class="page-header">
+                    <div class="container">
+                      <h2 class="page-title">Main Content</h2>
+                    </div>
+                  </header>
+
+                  <div class="page-content">
+                    <div class="container">
+                      <b>404</b>
+                      <p>Take me back to <a href="index.html">Home</a></p>
+                    </div>
+                  </div>
+
+                </div><!-- .main-inner -->
+              </div><!-- #main -->
+            </div><!-- #primary -->
+
+          </div><!-- .columns -->
+        </div><!-- .container -->
+      </main><!-- .main-content -->
+
+    </div><!-- #content -->
+
+    <footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+      <a id="scroll-to-top" class="outer ir-phark" href="#page">Scroll to Top</a>
+      <div class="container">
+        <p class="site-licsnse">HTML Init is licensed under the MIT License. | Copyright ⓒ 2020 by W3LabKr</p>
+        <a href="LICENSE">MIT License</a> |
+        <a href="https://github.com/w3labkr/html-init" target="_blank">View on Github</a>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="script.js"></script>
+
+  </div><!-- #page -->
+</body>
+
+</html>
